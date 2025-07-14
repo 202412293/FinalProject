@@ -335,24 +335,29 @@
   <!-- review section end -->
 
   <!-- contact section start -->
-  <section class="contact" id="contact">
+<section class="contact" id="contact">
 
-    <h1 class="heading"><span> contact</span> us</h1>
+  <h1 class="heading"><span> contact</span> us</h1>
 
-    <div class="row">
+  <div class="row">
 
-      <form action="">
-        <input type="text" placeholder="Name" class="card">
-        <input type="email" placeholder="Email" class="card">
-        <input type="number" placeholder="Number" class="card">
-        <textarea name="" class="card" placeholder="Message" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="Send message" class="btn">
-      </form>
-      <div class="image">
-        <img src="contact_img.jpeg">
-      </div>
+    <form action="https://formsubmit.co/ralphallenlanzaderas@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+      <input type="text" name="name" placeholder="Name" class="card" required>
+      <input type="email" name="email" placeholder="Email" class="card" required>
+      <input type="number" name="number" placeholder="Number" class="card" required>
+      <textarea name="message" class="card" placeholder="Message" cols="30" rows="10" required></textarea>
+      <input type="submit" value="Send message" class="btn">
+    </form>
+
+    <div class="image">
+      <img src="contact_img.jpeg">
     </div>
-  </section>
+
+  </div>
+</section>
   <!-- contact section end -->
 
   <!-- footer section start -->
